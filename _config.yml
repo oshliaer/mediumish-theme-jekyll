@@ -1,7 +1,7 @@
 # Site
-name: "Mediumish"
+name: "GoogleSheets.ru"
 title: "GoogleSheets.ru"
-description: "Jekyll template, Medium styled, free for bloggers."
+description: "Мы делаем бизнес приятным и удобным"
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /mediumish-theme-jekyll

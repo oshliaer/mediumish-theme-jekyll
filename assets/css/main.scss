@@ -5,11 +5,34 @@
 
 /* We need to add display:inline in order to align the '>>' of the 'read more' link */
 .post-excerpt p {
-	display:inline;
+  display: inline;
 }
 
 // Import partials from `sass_dir` (defaults to `_sass`)
-@import
-	"syntax",
-    "starsnonscss"
-;
+@import 'syntax', 'starsnonscss';
+
+.fa-ozon:before {
+  // content: url('./../images/ozon.ico');
+  // width: 16px;
+  // height: 16px;
+  // display: inline-block;
+  background-image: url('./../images/ozon.ico');
+  background-size: 16px 16px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  content: '';
+}
+
+.fa-github:before {
+  // content: url('./../images/ozon.ico');
+  // width: 16px;
+  // height: 16px;
+  // display: inline-block;
+  background-image: url('./../images/github.png');
+  background-size: 16px 16px;
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  content: '';
+}
